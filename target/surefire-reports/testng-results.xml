@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="229161" started-at="2018-04-04T00:25:00Z" finished-at="2018-04-04T00:28:49Z">
+  <suite name="Surefire suite" duration-ms="86630" started-at="2018-04-07T18:19:39Z" finished-at="2018-04-07T18:21:06Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="229161" started-at="2018-04-04T00:25:00Z" finished-at="2018-04-04T00:28:49Z">
+    <test name="Surefire test" duration-ms="86630" started-at="2018-04-07T18:19:39Z" finished-at="2018-04-07T18:21:06Z">
+      <class name="functional.SaksFifthLoginFunctionality">
+        <test-method status="PASS" signature="loginFunctionality()[pri:0, instance:loginFunctionality[0 - Browser - chrome](functional.SaksFifthLoginFunctionality)]" name="loginFunctionality[0 - Browser - chrome]" duration-ms="30186" started-at="2018-04-07T14:19:39Z" finished-at="2018-04-07T14:20:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFunctionality[0 - Browser - chrome] -->
+        <test-method status="PASS" signature="loginFunctionality()[pri:0, instance:loginFunctionality[1 - Browser - cloud_chrome_64](functional.SaksFifthLoginFunctionality)]" name="loginFunctionality[1 - Browser - cloud_chrome_64]" duration-ms="56364" started-at="2018-04-07T14:20:09Z" finished-at="2018-04-07T14:21:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFunctionality[1 - Browser - cloud_chrome_64] -->
+      </class> <!-- functional.SaksFifthLoginFunctionality -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

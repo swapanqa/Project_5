@@ -21,11 +21,12 @@ public class VerificationPage extends PageBase {
         // Assert.assertEquals("Saks.com: Designer Women's Apparel, Men's Apparel, Shoes and Handbags, Beauty and More", title);
         delayFor(3000);
     }
-    public void verifyAfterSignIn(){
+   /* public void verifyAfterSignIn(){
+        delayFor(2000);
         WebElement loginSuccessLabel = driver.findElement((By.xpath(".//div[contains(text(),'Welcome')]")));
         String successText = loginSuccessLabel.getText();
-        //Assert.assertEquals("Welcome, Shahjalal", successText);
+       // Assert.assertEquals("Welcome, Shahjalal", successText);
         assertThat(successText,startsWith("Welcome"));
 
-    }
+    }*/
 }

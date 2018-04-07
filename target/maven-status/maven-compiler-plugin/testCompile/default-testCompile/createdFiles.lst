@@ -1,3 +1,4 @@
 com\saksfifthavenue\qa\runner\CloudTestWithJUnit.class
 com\saksfifthavenue\qa\runner\BDDRunner.class
 com\saksfifthavenue\qa\runner\Demo.class
+functional\SaksFifthLoginFunctionality.class

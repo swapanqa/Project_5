@@ -29,14 +29,15 @@ public class HomePageSteps extends StepBase {
         verify.verifyClickingSignIn();
     }
 
-    @Then("^Welcome message display$")
+   /* @Then("^Welcome message display$")
     public void welcome_message_display() throws Throwable {
 
         /* WebElement loginSuccessLabel = driver.findElement((By.xpath(".//div[contains(text(),'Welcome')]")));
         String successText = loginSuccessLabel.getText();
-        //Assert.assertEquals("Welcome, Shahjalal", successText);
+        Assert.assertEquals("Welcome, Shahjalal", successText);
         assertThat(successText,startsWith("Welcome"));*/
-        verify.verifyAfterSignIn();
+        //verify.verifyAfterSignIn();
 
-    }
+
+
 }
