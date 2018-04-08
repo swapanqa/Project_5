@@ -1,0 +1,112 @@
+Feature: Saksfifthavenue login functionality
+
+  Background:                              [90m# src/test/resources/features/LoginFunctionality.feature:2[0m
+    [32mGiven [0m[32mNot a validated user[0m             [90m# ApplicationSteps.not_a_validated_user()[0m
+    [32mWhen [0m[32muser borwse to the site[0m           [90m# ApplicationSteps.user_borwse_to_the_site()[0m
+    [32mThen [0m[32msaksfifthavenue home page display[0m [90m# HomePageSteps.saksfifthavenue_home_page_display()[0m
+    [32mAnd [0m[32muser close pop up[0m                  [90m# ApplicationSteps.user_close_pop_up()[0m
+    [32mWhen [0m[32mUser click Sign In link[0m           [90m# LoginPageSteps.user_click_Sign_In_link()[0m
+    [32mThen [0m[32mBrowser display Sign In page[0m      [90m# LoginPageSteps.browser_display_Sign_In_page()[0m
+
+  Scenario: 1. Valid user with valid password            [90m# src/test/resources/features/LoginFunctionality.feature:11[0m
+    [32mWhen [0m[32mUser enter user email as "[0m[32m[1mshoyel1516@gmail.com[0m[32m"[0m [90m# LoginPageSteps.user_enter_user_email_as(String)[0m
+    [32mAnd [0m[32mUser enter user password as "[0m[32m[1mAasim0619![0m[32m"[0m         [90m# LoginPageSteps.user_enter_user_password_as(String)[0m
+    [32mAnd [0m[32muser click SIGN IN button[0m                        [90m# LoginPageSteps.user_click_SIGN_IN_button()[0m
+    [32mThen [0m[32mHome page should display[0m                        [90m# HomePageSteps.home_page_should_display()[0m
+    [32mAnd [0m[32mWelcome message display[0m                          [90m# HomePageSteps.welcome_message_display()[0m
+
+  Background:                              [90m# src/test/resources/features/LoginFunctionality.feature:2[0m
+    [32mGiven [0m[32mNot a validated user[0m             [90m# ApplicationSteps.not_a_validated_user()[0m
+    [32mWhen [0m[32muser borwse to the site[0m           [90m# ApplicationSteps.user_borwse_to_the_site()[0m
+    [32mThen [0m[32msaksfifthavenue home page display[0m [90m# HomePageSteps.saksfifthavenue_home_page_display()[0m
+    [32mAnd [0m[32muser close pop up[0m                  [90m# ApplicationSteps.user_close_pop_up()[0m
+    [32mWhen [0m[32mUser click Sign In link[0m           [90m# LoginPageSteps.user_click_Sign_In_link()[0m
+    [32mThen [0m[32mBrowser display Sign In page[0m      [90m# LoginPageSteps.browser_display_Sign_In_page()[0m
+
+  Scenario: 2. Valid user with valid password -Admin   [90m# src/test/resources/features/LoginFunctionality.feature:21[0m
+    [32mWhen [0m[32mUser enter user email as "[0m[32m[1mdoverave@yahoo.com[0m[32m"[0m [90m# LoginPageSteps.user_enter_user_email_as(String)[0m
+    [32mAnd [0m[32mUser enter user password as "[0m[32m[1mLo0ve101![0m[32m"[0m        [90m# LoginPageSteps.user_enter_user_password_as(String)[0m
+    [32mAnd [0m[32muser click SIGN IN button[0m                      [90m# LoginPageSteps.user_click_SIGN_IN_button()[0m
+    [32mThen [0m[32mHome page should display[0m                      [90m# HomePageSteps.home_page_should_display()[0m
+    [32mAnd [0m[32mWelcome message display[0m                        [90m# HomePageSteps.welcome_message_display()[0m
+
+  Scenario Outline: 3. Valid user with valid password -Data Driven [90m# src/test/resources/features/LoginFunctionality.feature:29[0m
+    [36mWhen [0m[36mUser enter user email as "<EmailAddress>"[0m
+    [36mAnd [0m[36mUser enter user password as "<Password>"[0m
+    [36mAnd [0m[36muser click SIGN IN button[0m
+    [36mThen [0m[36mHome page should display[0m
+    [36mAnd [0m[36mWelcome message display[0m
+
+    Examples: 
+
+  Background:                              [90m# src/test/resources/features/LoginFunctionality.feature:2[0m
+    [32mGiven [0m[32mNot a validated user[0m             [90m# ApplicationSteps.not_a_validated_user()[0m
+    [32mWhen [0m[32muser borwse to the site[0m           [90m# ApplicationSteps.user_borwse_to_the_site()[0m
+    [32mThen [0m[32msaksfifthavenue home page display[0m [90m# HomePageSteps.saksfifthavenue_home_page_display()[0m
+    [32mAnd [0m[32muser close pop up[0m                  [90m# ApplicationSteps.user_close_pop_up()[0m
+    [32mWhen [0m[32mUser click Sign In link[0m           [90m# LoginPageSteps.user_click_Sign_In_link()[0m
+    [32mThen [0m[32mBrowser display Sign In page[0m      [90m# LoginPageSteps.browser_display_Sign_In_page()[0m
+
+  Scenario Outline: 3. Valid user with valid password -Data Driven [90m# src/test/resources/features/LoginFunctionality.feature:38[0m
+    [32mWhen [0m[32mUser enter user email as "[0m[32m[1mdoverave@yahoo.com[0m[32m"[0m             [90m# LoginPageSteps.user_enter_user_email_as(String)[0m
+    [32mAnd [0m[32mUser enter user password as "[0m[32m[1mLo0ve101![0m[32m"[0m                    [90m# LoginPageSteps.user_enter_user_password_as(String)[0m
+    [32mAnd [0m[32muser click SIGN IN button[0m                                  [90m# LoginPageSteps.user_click_SIGN_IN_button()[0m
+    [32mThen [0m[32mHome page should display[0m                                  [90m# HomePageSteps.home_page_should_display()[0m
+    [32mAnd [0m[32mWelcome message display[0m                                    [90m# HomePageSteps.welcome_message_display()[0m
+
+  Background:                              [90m# src/test/resources/features/LoginFunctionality.feature:2[0m
+    [32mGiven [0m[32mNot a validated user[0m             [90m# ApplicationSteps.not_a_validated_user()[0m
+    [32mWhen [0m[32muser borwse to the site[0m           [90m# ApplicationSteps.user_borwse_to_the_site()[0m
+    [32mThen [0m[32msaksfifthavenue home page display[0m [90m# HomePageSteps.saksfifthavenue_home_page_display()[0m
+    [32mAnd [0m[32muser close pop up[0m                  [90m# ApplicationSteps.user_close_pop_up()[0m
+    [32mWhen [0m[32mUser click Sign In link[0m           [90m# LoginPageSteps.user_click_Sign_In_link()[0m
+    [32mThen [0m[32mBrowser display Sign In page[0m      [90m# LoginPageSteps.browser_display_Sign_In_page()[0m
+
+  Scenario Outline: 3. Valid user with valid password -Data Driven [90m# src/test/resources/features/LoginFunctionality.feature:39[0m
+    [32mWhen [0m[32mUser enter user email as "[0m[32m[1mshoyel1516@gmail.com[0m[32m"[0m           [90m# LoginPageSteps.user_enter_user_email_as(String)[0m
+    [32mAnd [0m[32mUser enter user password as "[0m[32m[1mAasim0619![0m[32m"[0m                   [90m# LoginPageSteps.user_enter_user_password_as(String)[0m
+    [32mAnd [0m[32muser click SIGN IN button[0m                                  [90m# LoginPageSteps.user_click_SIGN_IN_button()[0m
+    [32mThen [0m[32mHome page should display[0m                                  [90m# HomePageSteps.home_page_should_display()[0m
+    [32mAnd [0m[32mWelcome message display[0m                                    [90m# HomePageSteps.welcome_message_display()[0m
+Feature: Saksfifthavenue shoppingCart Functionality
+
+  Background:                              [90m# src/test/resources/features/ShoppingCartFunctionality.feature:2[0m
+    [32mGiven [0m[32mNot a validated user[0m             [90m# ApplicationSteps.not_a_validated_user()[0m
+    [32mWhen [0m[32muser borwse to the site[0m           [90m# ApplicationSteps.user_borwse_to_the_site()[0m
+    [32mThen [0m[32msaksfifthavenue home page display[0m [90m# HomePageSteps.saksfifthavenue_home_page_display()[0m
+    [32mAnd [0m[32muser close pop up[0m                  [90m# ApplicationSteps.user_close_pop_up()[0m
+    [32mWhen [0m[32mUser click Sign In link[0m           [90m# LoginPageSteps.user_click_Sign_In_link()[0m
+    [32mThen [0m[32mBrowser display Sign In page[0m      [90m# LoginPageSteps.browser_display_Sign_In_page()[0m
+
+  Scenario: 1. Product Selection                         [90m# src/test/resources/features/ShoppingCartFunctionality.feature:10[0m
+    [32mWhen [0m[32mUser enter user email as "[0m[32m[1mshoyel1516@gmail.com[0m[32m"[0m [90m# LoginPageSteps.user_enter_user_email_as(String)[0m
+    [32mAnd [0m[32mUser enter user password as "[0m[32m[1mAasim0619![0m[32m"[0m         [90m# LoginPageSteps.user_enter_user_password_as(String)[0m
+    [32mAnd [0m[32muser click SIGN IN button[0m                        [90m# LoginPageSteps.user_click_SIGN_IN_button()[0m
+    [32mThen [0m[32muser select activewear from Men Menu[0m            [90m# IteamChoosePage.user_click_on_Men_Tabs()[0m
+    [32mThen [0m[32muser choose lacoste[0m                             [90m# IteamChoosePage.user_choose_lacoste()[0m
+    #Then Verify the error message if user does not select color or size
+    [32mAnd [0m[32muser choose small size[0m                           [90m# IteamChoosePage.user_choose_medium_size()[0m
+    [32mThen [0m[32muser click on add to bag[0m                        [90m# IteamChoosePage.user_click_on_add_to_bag()[0m
+
+  Background:                              [90m# src/test/resources/features/ShoppingCartFunctionality.feature:2[0m
+    [32mGiven [0m[32mNot a validated user[0m             [90m# ApplicationSteps.not_a_validated_user()[0m
+    [32mWhen [0m[32muser borwse to the site[0m           [90m# ApplicationSteps.user_borwse_to_the_site()[0m
+    [32mThen [0m[32msaksfifthavenue home page display[0m [90m# HomePageSteps.saksfifthavenue_home_page_display()[0m
+    [32mAnd [0m[32muser close pop up[0m                  [90m# ApplicationSteps.user_close_pop_up()[0m
+    [32mWhen [0m[32mUser click Sign In link[0m           [90m# LoginPageSteps.user_click_Sign_In_link()[0m
+    [32mThen [0m[32mBrowser display Sign In page[0m      [90m# LoginPageSteps.browser_display_Sign_In_page()[0m
+
+  Scenario: 2. Adding product to the cart                  [90m# src/test/resources/features/ShoppingCartFunctionality.feature:21[0m
+    [32mWhen [0m[32mUser enter user email as "[0m[32m[1mshoyel1516@gmail.com[0m[32m"[0m   [90m# LoginPageSteps.user_enter_user_email_as(String)[0m
+    [32mAnd [0m[32mUser enter user password as "[0m[32m[1mAasim0619![0m[32m"[0m           [90m# LoginPageSteps.user_enter_user_password_as(String)[0m
+    [32mAnd [0m[32muser click SIGN IN button[0m                          [90m# LoginPageSteps.user_click_SIGN_IN_button()[0m
+    [32mThen [0m[32muser select activewear from Men Menu[0m              [90m# IteamChoosePage.user_click_on_Men_Tabs()[0m
+    [32mThen [0m[32muser choose lacoste[0m                               [90m# IteamChoosePage.user_choose_lacoste()[0m
+    #Then Verify the error message if user does not select color or size
+    [32mAnd [0m[32muser choose small size[0m                             [90m# IteamChoosePage.user_choose_medium_size()[0m
+    [32mThen [0m[32muser click on add to bag[0m                          [90m# IteamChoosePage.user_click_on_add_to_bag()[0m
+    [32mThen [0m[32mverify that user is in checkout page[0m              [90m# IteamChoosePage.verify_that_user_is_in_checkout_page()[0m
+    [32mThen [0m[32muser should click on checkout[0m                     [90m# IteamChoosePage.user_should_click_on_checkout()[0m
+    [32mWhen [0m[32mVerify whether user are able to add items to cart[0m [90m# IteamChoosePage.verify_whether_user_are_able_to_add_items_to_cart()[0m
+    [32mThen [0m[32mcheck for edit delet or save option[0m               [90m# IteamChoosePage.check_for_edit_delet_or_save_option()[0m
+    [32mThen [0m[32mshopping cart should contain price of the product[0m [90m# IteamChoosePage.shopping_cart_should_contain_price_of_the_product()[0m

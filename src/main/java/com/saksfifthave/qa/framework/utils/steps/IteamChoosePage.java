@@ -39,14 +39,14 @@ public class IteamChoosePage extends StepBase {
         public void user_choose_medium_size() throws Throwable {
             //driver.findElement(By.xpath("//span[text()='SMALL']")).click();
             cart.customerSelectSmallSize();
-            delayFor(2000);
+           // delayFor(2000);
         }
 
     @Then("^user click on add to bag$")
     public void user_click_on_add_to_bag() throws Throwable {
-        //driver.findElement(By.xpath("//button[@data-reactid='64']")).click();
+        //driver.findElement(By.xpath("//button[@data-reactid='87']")).click();
         cart.customerClickAddToBag();
-        delayFor(2000);
+        //delayFor(2000);
     }
 
     /*@Then("^Verify_the_error_message_if_user_does_not_select_color_or_size$")

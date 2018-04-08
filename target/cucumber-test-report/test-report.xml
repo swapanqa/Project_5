@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="221.532406">
+<testcase classname="Saksfifthavenue login functionality" name="1. Valid user with valid password" time="33.47084">
+<system-out><![CDATA[Given Not a validated user..................................................passed
+When user borwse to the site................................................passed
+Then saksfifthavenue home page display......................................passed
+And user close pop up.......................................................passed
+When User click Sign In link................................................passed
+Then Browser display Sign In page...........................................passed
+When User enter user email as "shoyel1516@gmail.com"........................passed
+And User enter user password as "Aasim0619!"................................passed
+And user click SIGN IN button...............................................passed
+Then Home page should display...............................................passed
+And Welcome message display.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Saksfifthavenue login functionality" name="2. Valid user with valid password -Admin" time="30.719013">
+<system-out><![CDATA[Given Not a validated user..................................................passed
+When user borwse to the site................................................passed
+Then saksfifthavenue home page display......................................passed
+And user close pop up.......................................................passed
+When User click Sign In link................................................passed
+Then Browser display Sign In page...........................................passed
+When User enter user email as "doverave@yahoo.com"..........................passed
+And User enter user password as "Lo0ve101!".................................passed
+And user click SIGN IN button...............................................passed
+Then Home page should display...............................................passed
+And Welcome message display.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Saksfifthavenue login functionality" name="3. Valid user with valid password -Data Driven" time="32.946084">
+<system-out><![CDATA[Given Not a validated user..................................................passed
+When user borwse to the site................................................passed
+Then saksfifthavenue home page display......................................passed
+And user close pop up.......................................................passed
+When User click Sign In link................................................passed
+Then Browser display Sign In page...........................................passed
+When User enter user email as "doverave@yahoo.com"..........................passed
+And User enter user password as "Lo0ve101!".................................passed
+And user click SIGN IN button...............................................passed
+Then Home page should display...............................................passed
+And Welcome message display.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Saksfifthavenue login functionality" name="3. Valid user with valid password -Data Driven 2" time="32.542481">
+<system-out><![CDATA[Given Not a validated user..................................................passed
+When user borwse to the site................................................passed
+Then saksfifthavenue home page display......................................passed
+And user close pop up.......................................................passed
+When User click Sign In link................................................passed
+Then Browser display Sign In page...........................................passed
+When User enter user email as "shoyel1516@gmail.com"........................passed
+And User enter user password as "Aasim0619!"................................passed
+And user click SIGN IN button...............................................passed
+Then Home page should display...............................................passed
+And Welcome message display.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Saksfifthavenue shoppingCart Functionality" name="1. Product Selection" time="43.993448">
+<system-out><![CDATA[Given Not a validated user..................................................passed
+When user borwse to the site................................................passed
+Then saksfifthavenue home page display......................................passed
+And user close pop up.......................................................passed
+When User click Sign In link................................................passed
+Then Browser display Sign In page...........................................passed
+When User enter user email as "shoyel1516@gmail.com"........................passed
+And User enter user password as "Aasim0619!"................................passed
+And user click SIGN IN button...............................................passed
+Then user select activewear from Men Menu...................................passed
+Then user choose lacoste....................................................passed
+And user choose small size..................................................passed
+Then user click on add to bag...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Saksfifthavenue shoppingCart Functionality" name="2. Adding product to the cart" time="47.86054">
+<system-out><![CDATA[Given Not a validated user..................................................passed
+When user borwse to the site................................................passed
+Then saksfifthavenue home page display......................................passed
+And user close pop up.......................................................passed
+When User click Sign In link................................................passed
+Then Browser display Sign In page...........................................passed
+When User enter user email as "shoyel1516@gmail.com"........................passed
+And User enter user password as "Aasim0619!"................................passed
+And user click SIGN IN button...............................................passed
+Then user select activewear from Men Menu...................................passed
+Then user choose lacoste....................................................passed
+And user choose small size..................................................passed
+Then user click on add to bag...............................................passed
+Then verify that user is in checkout page...................................passed
+Then user should click on checkout..........................................passed
+When Verify whether user are able to add items to cart......................passed
+Then check for edit delet or save option....................................passed
+Then shopping cart should contain price of the product......................passed
+]]></system-out>
+</testcase>
+</testsuite>

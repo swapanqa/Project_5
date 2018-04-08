@@ -24,10 +24,12 @@ public class ShoppingCartPage extends PageBase {
     }
     public void customerSelectSmallSize(){
         driver.findElement(By.xpath("//span[text()='SMALL']")).click();
+        delayFor(200);
 
     }
     public void customerClickAddToBag(){
-        driver.findElement(By.xpath("//button[@data-reactid='64']")).click();
+        delayFor(2000);
+        driver.findElement(By.xpath("//button[@data-reactid='87']")).click();
         delayFor(2000);
 
     }
