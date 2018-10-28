@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 5105392100,
+  "duration": 6346922200,
   "status": "passed"
 });
 formatter.background({
@@ -51,42 +51,42 @@ formatter.match({
   "location": "ApplicationSteps.not_a_validated_user()"
 });
 formatter.result({
-  "duration": 283450800,
+  "duration": 216956801,
   "status": "passed"
 });
 formatter.match({
   "location": "ApplicationSteps.user_borwse_to_the_site()"
 });
 formatter.result({
-  "duration": 10921102700,
+  "duration": 9076500800,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePageSteps.saksfifthavenue_home_page_display()"
 });
 formatter.result({
-  "duration": 57364600,
+  "duration": 44841000,
   "status": "passed"
 });
 formatter.match({
   "location": "ApplicationSteps.user_close_pop_up()"
 });
 formatter.result({
-  "duration": 685269500,
+  "duration": 348708900,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPageSteps.user_click_Sign_In_link()"
 });
 formatter.result({
-  "duration": 5888927800,
+  "duration": 4708504300,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPageSteps.browser_display_Sign_In_page()"
 });
 formatter.result({
-  "duration": 18062400,
+  "duration": 25913500,
   "status": "passed"
 });
 formatter.scenario({
@@ -132,7 +132,7 @@ formatter.match({
   "location": "LoginPageSteps.user_enter_user_email_as(String)"
 });
 formatter.result({
-  "duration": 1334347900,
+  "duration": 1326022300,
   "status": "passed"
 });
 formatter.match({
@@ -145,36 +145,36 @@ formatter.match({
   "location": "LoginPageSteps.user_enter_user_password_as(String)"
 });
 formatter.result({
-  "duration": 1185873100,
+  "duration": 1173860100,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPageSteps.user_click_SIGN_IN_button()"
 });
 formatter.result({
-  "duration": 1080934200,
+  "duration": 1074216300,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePageSteps.home_page_should_display()"
 });
 formatter.result({
-  "duration": 6027354700,
+  "duration": 6020937100,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePageSteps.welcome_message_display()"
 });
 formatter.result({
-  "duration": 9003500,
+  "duration": 10776400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 873756300,
+  "duration": 936324400,
   "status": "passed"
 });
 formatter.before({
-  "duration": 3655850100,
+  "duration": 3800873300,
   "status": "passed"
 });
 formatter.background({
@@ -218,42 +218,42 @@ formatter.match({
   "location": "ApplicationSteps.not_a_validated_user()"
 });
 formatter.result({
-  "duration": 119114500,
+  "duration": 40559500,
   "status": "passed"
 });
 formatter.match({
   "location": "ApplicationSteps.user_borwse_to_the_site()"
 });
 formatter.result({
-  "duration": 10224428200,
+  "duration": 9048970200,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePageSteps.saksfifthavenue_home_page_display()"
 });
 formatter.result({
-  "duration": 57416600,
+  "duration": 32796000,
   "status": "passed"
 });
 formatter.match({
   "location": "ApplicationSteps.user_close_pop_up()"
 });
 formatter.result({
-  "duration": 562069600,
+  "duration": 612677300,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPageSteps.user_click_Sign_In_link()"
 });
 formatter.result({
-  "duration": 5428130600,
+  "duration": 5084321400,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPageSteps.browser_display_Sign_In_page()"
 });
 formatter.result({
-  "duration": 27607700,
+  "duration": 34926900,
   "status": "passed"
 });
 formatter.scenario({
@@ -299,7 +299,7 @@ formatter.match({
   "location": "LoginPageSteps.user_enter_user_email_as(String)"
 });
 formatter.result({
-  "duration": 1411330000,
+  "duration": 1371748100,
   "status": "passed"
 });
 formatter.match({
@@ -312,32 +312,32 @@ formatter.match({
   "location": "LoginPageSteps.user_enter_user_password_as(String)"
 });
 formatter.result({
-  "duration": 1215744000,
+  "duration": 1157160700,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPageSteps.user_click_SIGN_IN_button()"
 });
 formatter.result({
-  "duration": 1071300400,
+  "duration": 1075511300,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePageSteps.home_page_should_display()"
 });
 formatter.result({
-  "duration": 6028125400,
+  "duration": 6020087900,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePageSteps.welcome_message_display()"
 });
 formatter.result({
-  "duration": 13471300,
+  "duration": 8668700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 904424800,
+  "duration": 942972900,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -407,7 +407,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 3585513600,
+  "duration": 3716009300,
   "status": "passed"
 });
 formatter.background({
@@ -451,42 +451,42 @@ formatter.match({
   "location": "ApplicationSteps.not_a_validated_user()"
 });
 formatter.result({
-  "duration": 102874200,
+  "duration": 36731200,
   "status": "passed"
 });
 formatter.match({
   "location": "ApplicationSteps.user_borwse_to_the_site()"
 });
 formatter.result({
-  "duration": 12399973600,
+  "duration": 9024266500,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePageSteps.saksfifthavenue_home_page_display()"
 });
 formatter.result({
-  "duration": 17337500,
+  "duration": 14351600,
   "status": "passed"
 });
 formatter.match({
   "location": "ApplicationSteps.user_close_pop_up()"
 });
 formatter.result({
-  "duration": 406432600,
+  "duration": 386620000,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPageSteps.user_click_Sign_In_link()"
 });
 formatter.result({
-  "duration": 5910982300,
+  "duration": 4995083600,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPageSteps.browser_display_Sign_In_page()"
 });
 formatter.result({
-  "duration": 17834300,
+  "duration": 61639900,
   "status": "passed"
 });
 formatter.scenario({
@@ -538,7 +538,7 @@ formatter.match({
   "location": "LoginPageSteps.user_enter_user_email_as(String)"
 });
 formatter.result({
-  "duration": 1337916300,
+  "duration": 1387895400,
   "status": "passed"
 });
 formatter.match({
@@ -551,36 +551,36 @@ formatter.match({
   "location": "LoginPageSteps.user_enter_user_password_as(String)"
 });
 formatter.result({
-  "duration": 1167616500,
+  "duration": 1150000700,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPageSteps.user_click_SIGN_IN_button()"
 });
 formatter.result({
-  "duration": 1068385100,
+  "duration": 1053318000,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePageSteps.home_page_should_display()"
 });
 formatter.result({
-  "duration": 6020590200,
+  "duration": 6024827300,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePageSteps.welcome_message_display()"
 });
 formatter.result({
-  "duration": 12346400,
+  "duration": 10505500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 898281300,
+  "duration": 1025495300,
   "status": "passed"
 });
 formatter.before({
-  "duration": 6646701100,
+  "duration": 3683464300,
   "status": "passed"
 });
 formatter.background({
@@ -624,42 +624,42 @@ formatter.match({
   "location": "ApplicationSteps.not_a_validated_user()"
 });
 formatter.result({
-  "duration": 123997500,
+  "duration": 37235900,
   "status": "passed"
 });
 formatter.match({
   "location": "ApplicationSteps.user_borwse_to_the_site()"
 });
 formatter.result({
-  "duration": 9303933300,
+  "duration": 9047461200,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePageSteps.saksfifthavenue_home_page_display()"
 });
 formatter.result({
-  "duration": 13887300,
+  "duration": 51995500,
   "status": "passed"
 });
 formatter.match({
   "location": "ApplicationSteps.user_close_pop_up()"
 });
 formatter.result({
-  "duration": 341764400,
+  "duration": 380428000,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPageSteps.user_click_Sign_In_link()"
 });
 formatter.result({
-  "duration": 5567592900,
+  "duration": 5933982900,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPageSteps.browser_display_Sign_In_page()"
 });
 formatter.result({
-  "duration": 21614700,
+  "duration": 68310300,
   "status": "passed"
 });
 formatter.scenario({
@@ -711,7 +711,7 @@ formatter.match({
   "location": "LoginPageSteps.user_enter_user_email_as(String)"
 });
 formatter.result({
-  "duration": 1313371600,
+  "duration": 1393244000,
   "status": "passed"
 });
 formatter.match({
@@ -724,32 +724,32 @@ formatter.match({
   "location": "LoginPageSteps.user_enter_user_password_as(String)"
 });
 formatter.result({
-  "duration": 1160651400,
+  "duration": 1166294900,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPageSteps.user_click_SIGN_IN_button()"
 });
 formatter.result({
-  "duration": 1088983500,
+  "duration": 1066181600,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePageSteps.home_page_should_display()"
 });
 formatter.result({
-  "duration": 6026990500,
+  "duration": 6019911700,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePageSteps.welcome_message_display()"
 });
 formatter.result({
-  "duration": 10364700,
+  "duration": 10299600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 922628100,
+  "duration": 967875500,
   "status": "passed"
 });
 formatter.uri("src/test/resources/features/ShoppingCartFunctionality.feature");
@@ -761,7 +761,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 3602371800,
+  "duration": 3623350600,
   "status": "passed"
 });
 formatter.background({
@@ -805,42 +805,42 @@ formatter.match({
   "location": "ApplicationSteps.not_a_validated_user()"
 });
 formatter.result({
-  "duration": 125446700,
+  "duration": 36363800,
   "status": "passed"
 });
 formatter.match({
   "location": "ApplicationSteps.user_borwse_to_the_site()"
 });
 formatter.result({
-  "duration": 9595072400,
+  "duration": 9151993900,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePageSteps.saksfifthavenue_home_page_display()"
 });
 formatter.result({
-  "duration": 17636100,
+  "duration": 22211200,
   "status": "passed"
 });
 formatter.match({
   "location": "ApplicationSteps.user_close_pop_up()"
 });
 formatter.result({
-  "duration": 417935300,
+  "duration": 338191400,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPageSteps.user_click_Sign_In_link()"
 });
 formatter.result({
-  "duration": 5471132900,
+  "duration": 5402515400,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPageSteps.browser_display_Sign_In_page()"
 });
 formatter.result({
-  "duration": 22196400,
+  "duration": 68075200,
   "status": "passed"
 });
 formatter.scenario({
@@ -902,7 +902,7 @@ formatter.match({
   "location": "LoginPageSteps.user_enter_user_email_as(String)"
 });
 formatter.result({
-  "duration": 1363498300,
+  "duration": 1432937200,
   "status": "passed"
 });
 formatter.match({
@@ -915,50 +915,48 @@ formatter.match({
   "location": "LoginPageSteps.user_enter_user_password_as(String)"
 });
 formatter.result({
-  "duration": 1154165800,
+  "duration": 1176299400,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPageSteps.user_click_SIGN_IN_button()"
 });
 formatter.result({
-  "duration": 1093949800,
+  "duration": 1064398800,
   "status": "passed"
 });
 formatter.match({
   "location": "IteamChoosePage.user_click_on_Men_Tabs()"
 });
 formatter.result({
-  "duration": 8457560600,
-  "status": "passed"
+  "duration": 3290532200,
+  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[contains(@href, \u0027/Men/Apparel/Activewear\u0027)]\"}\n  (Session info: chrome\u003d68.0.3440.106)\n  (Driver info: chromedriver\u003d2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform\u003dWindows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.8.1\u0027, revision: \u00276e95a6684b\u0027, time: \u00272017-12-01T18:33:54.468Z\u0027\nSystem info: host: \u0027SHIFT-PC01\u0027, ip: \u0027192.168.1.158\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u00279.0.4\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\\Users\\SHIFTS~1\\AppData\\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50161}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}\nSession ID: 3e8483c1abb0228e4eae9bab9ce4c5ac\n*** Element info: {Using\u003dxpath, value\u003d//a[contains(@href, \u0027/Men/Apparel/Activewear\u0027)]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat com.saksfifthave.qa.framework.utils.pageObjectModel.ShoppingCartPage.customerSelectActivewear(ShoppingCartPage.java:17)\r\n\tat com.saksfifthave.qa.framework.utils.steps.IteamChoosePage.user_click_on_Men_Tabs(IteamChoosePage.java:23)\r\n\tat ✽.Then user select activewear from Men Menu(src/test/resources/features/ShoppingCartFunctionality.feature:14)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "IteamChoosePage.user_choose_lacoste()"
 });
 formatter.result({
-  "duration": 7065782000,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "IteamChoosePage.user_choose_medium_size()"
 });
 formatter.result({
-  "duration": 415384000,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "IteamChoosePage.user_click_on_add_to_bag()"
 });
 formatter.result({
-  "duration": 4214861200,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.after({
-  "duration": 976454500,
+  "duration": 994652500,
   "status": "passed"
 });
 formatter.before({
-  "duration": 3632292400,
+  "duration": 3650956400,
   "status": "passed"
 });
 formatter.background({
@@ -1002,42 +1000,42 @@ formatter.match({
   "location": "ApplicationSteps.not_a_validated_user()"
 });
 formatter.result({
-  "duration": 110417600,
+  "duration": 30399800,
   "status": "passed"
 });
 formatter.match({
   "location": "ApplicationSteps.user_borwse_to_the_site()"
 });
 formatter.result({
-  "duration": 10004285900,
+  "duration": 8975014400,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePageSteps.saksfifthavenue_home_page_display()"
 });
 formatter.result({
-  "duration": 19898000,
+  "duration": 24684200,
   "status": "passed"
 });
 formatter.match({
   "location": "ApplicationSteps.user_close_pop_up()"
 });
 formatter.result({
-  "duration": 376334100,
+  "duration": 324897200,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPageSteps.user_click_Sign_In_link()"
 });
 formatter.result({
-  "duration": 5601941200,
+  "duration": 5739756500,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPageSteps.browser_display_Sign_In_page()"
 });
 formatter.result({
-  "duration": 34803800,
+  "duration": 68533200,
   "status": "passed"
 });
 formatter.scenario({
@@ -1124,7 +1122,7 @@ formatter.match({
   "location": "LoginPageSteps.user_enter_user_email_as(String)"
 });
 formatter.result({
-  "duration": 1486036100,
+  "duration": 1388200700,
   "status": "passed"
 });
 formatter.match({
@@ -1137,81 +1135,74 @@ formatter.match({
   "location": "LoginPageSteps.user_enter_user_password_as(String)"
 });
 formatter.result({
-  "duration": 1151136200,
+  "duration": 1152211000,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPageSteps.user_click_SIGN_IN_button()"
 });
 formatter.result({
-  "duration": 1086374300,
+  "duration": 1060825700,
   "status": "passed"
 });
 formatter.match({
   "location": "IteamChoosePage.user_click_on_Men_Tabs()"
 });
 formatter.result({
-  "duration": 8119926500,
-  "status": "passed"
+  "duration": 3263943500,
+  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[contains(@href, \u0027/Men/Apparel/Activewear\u0027)]\"}\n  (Session info: chrome\u003d68.0.3440.106)\n  (Driver info: chromedriver\u003d2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform\u003dWindows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.8.1\u0027, revision: \u00276e95a6684b\u0027, time: \u00272017-12-01T18:33:54.468Z\u0027\nSystem info: host: \u0027SHIFT-PC01\u0027, ip: \u0027192.168.1.158\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u00279.0.4\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\\Users\\SHIFTS~1\\AppData\\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50366}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}\nSession ID: a00d57ec72663312213a26bc6361c77e\n*** Element info: {Using\u003dxpath, value\u003d//a[contains(@href, \u0027/Men/Apparel/Activewear\u0027)]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat com.saksfifthave.qa.framework.utils.pageObjectModel.ShoppingCartPage.customerSelectActivewear(ShoppingCartPage.java:17)\r\n\tat com.saksfifthave.qa.framework.utils.steps.IteamChoosePage.user_click_on_Men_Tabs(IteamChoosePage.java:23)\r\n\tat ✽.Then user select activewear from Men Menu(src/test/resources/features/ShoppingCartFunctionality.feature:25)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "IteamChoosePage.user_choose_lacoste()"
 });
 formatter.result({
-  "duration": 5611026900,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "IteamChoosePage.user_choose_medium_size()"
 });
 formatter.result({
-  "duration": 483484500,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "IteamChoosePage.user_click_on_add_to_bag()"
 });
 formatter.result({
-  "duration": 4211496400,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "IteamChoosePage.verify_that_user_is_in_checkout_page()"
 });
 formatter.result({
-  "duration": 68716400,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "IteamChoosePage.user_should_click_on_checkout()"
 });
 formatter.result({
-  "duration": 4810771400,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "IteamChoosePage.verify_whether_user_are_able_to_add_items_to_cart()"
 });
 formatter.result({
-  "duration": 23477300,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "IteamChoosePage.check_for_edit_delet_or_save_option()"
 });
 formatter.result({
-  "duration": 32121500,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "IteamChoosePage.shopping_cart_should_contain_price_of_the_product()"
 });
 formatter.result({
-  "duration": 33206100,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.after({
-  "duration": 962793400,
+  "duration": 1039873000,
   "status": "passed"
 });
 });
